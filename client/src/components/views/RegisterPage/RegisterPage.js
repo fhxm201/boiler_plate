@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { registerUser } from '../../../_actions/user_action';
-import Axios from 'axios';
+import axios from 'axios';
 import { withRouter } from 'react-router-dom';
+import 'antd/dist/antd.min.css';
 function RegisterPage(props) {
     const dispatch = useDispatch();
 
